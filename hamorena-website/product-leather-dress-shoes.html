@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_assets/mystyle.css">
+    <script src="js_assets/myjavascript.js"></script>
+    <title>HaMorena | Leather Dress Shoes</title>
+    <meta name="keywords" content="HaMorena, Leather Dress Shoes, Shoes, Accessories">
+    <meta name="description" content="View details, sizes, colours and price for the HaMorena Leather Dress Shoes.">
+    
+</head>
+<body>
+
+    <!-- ===== Site Header ===== -->
+    <header>
+        <img src="_images/hamorena_logo.png" alt="HaMorena">
+        <div class="logo">
+            <h1>HaMorena</h1>
+            <p>Fine Watches &amp; Men's Accessories</p>
+        </div>
+
+        <!-- ===== Main Navigation ===== -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Shop</a></li>
+                <li><a href="inquiries.html">Enquiries</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== Main Content ===== -->
+    <main>
+
+        <!-- Breadcrumb / Back link -->
+        <p><a href="services.html">&larr; Back to Shop</a></p>
+
+        <!-- Product Detail Section -->
+        <section id="product-detail">
+
+            <!-- Product Image Gallery -->
+            <div id="product-gallery">  
+
+                  <a href="_images/shoes-leather-dress.png" data-lightbox="Hamorena" title="Leather Dress Shoes image 2">
+                <img src="_images/shoes-leather-dress.png" alt="Leather Dress Shoes image 1" class="product-thumb">
+
+                 <a href="_images/shoes-brown-dress.jpg" data-lightbox="Hamorena" title="Leather Dress Shoes image 2">
+                <img src="_images/shoes-brown-dress.jpg" alt="Leather Dress Shoes image 2" class="product-thumb">
+       
+                <a href="_images/boots.jpg" data-lightbox="Hamorena" title="Leather Dress Shoes image 3">
+                    <img src="_images/boots.jpg" alt="HaMorena Leather Dress Shoes image 3" class="product-thumb">
+                </a>
+            </div>
+
+            <!-- Product Information -->
+            <div id="product-info">
+                <h2>Leather Dress Shoes</h2>
+                <p id="product-category">Category: Shoes</p>
+                <p id="product-price">R1,450.00</p>
+                <p id="product-description">Handcrafted leather dress shoes with a classic silhouette, built to last and finished to a high shine.</p>
+
+                <!-- Order Options Form -->
+                <!-- Note: this form is structural only for now. Client-side
+                     validation and add-to-cart functionality will be
+                     implemented with JavaScript in Part 3. -->
+                <form action="#" method="post">
+                    <div>
+                        <label for="size">Size</label>
+                        <select id="size" name="size">
+                        <option value="UK 6">UK 6</option>
+                        <option value="UK 7">UK 7</option>
+                        <option value="UK 8">UK 8</option>
+                        <option value="UK 9">UK 9</option>
+                        <option value="UK 10">UK 10</option>
+                        <option value="UK 11">UK 11</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="colour">Colour</label>
+                        <select id="colour" name="colour">
+                        <option value="Black">Black</option>
+                        <option value="Brown">Brown</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    </div>
+
+                    <button type="submit">Add to Cart</button>
+                </form>
+
+            </div>
+        </section>
+                  <footer>
+                      <nav>
+                          <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About Us</a></li>
+                              <li><a href="services.html">Shop</a></li>
+                              <li><a href="inquiries.html">Enquiries</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                          </ul>
+                      </nav>
+                      <script>
+                        var currentYear = new Date().getFullYear();
+                        document.write("&copy; " + currentYear + " HaMorena. All rights reserved.");
+                      </script>
+                  </footer>
+
+    </main>
+</body>
+</html>
